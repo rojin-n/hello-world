@@ -1,0 +1,27 @@
+body {
+    background-color: $primary;
+    height: 80px;
+   // font-size: $standard_font_size;
+}
+
+
+
+header {
+    height: 70px;
+    background-color: $secondart;
+    padding: $standard_padding;
+
+    ul {
+        list-style-type: none;
+
+        li {
+            padding: $standard_padding;
+            display: inline-block;
+            font-size: px2rem(90);
+
+            &:hover {
+                font-weight: bold;
+            }
+        }
+    }
+}
